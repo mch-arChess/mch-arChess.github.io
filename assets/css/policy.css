@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../chess_image_show.png);
+    background-size: cover;
+}
+
+main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top left,#ff844cbf, #b47cffbd); 
+    background-repeat: no-repeat;
+    padding: 14px;
+    color: #ffffffad;
+}
+
+main h1 {
+    font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+main p {
+    font-family: Comfortaa, Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+a:active, a:link, a {
+    text-align: center;
+    color: #ffffff88;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e1e2e388;
+}
+
+@media screen and (max-width: 480px) {
+    main p {
+        width: 100%;
+    }
+}
